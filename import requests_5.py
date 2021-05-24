@@ -44,7 +44,7 @@ def getData(url):
 # 主程序: 抓取頁面圖片
 pageURL = "http://www.jituwang.com/sucai/chunji-7541327.html"
 count = 0
-while count < 5:
+while count < 3:   # 一次抓取三頁
     pageURL = "http://www.jituwang.com" + getData(pageURL)
     count += 1
 
